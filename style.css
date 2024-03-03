@@ -1,0 +1,73 @@
+/* navbar style added */
+.navbar {
+	margin: 30px, 30px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .navbar-logo img {
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .navbar-name {
+    font-size: 35px;
+  }
+
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin-right: 20px;
+  }
+
+  .color-text {
+	color: rgba(255, 84, 0, 1);
+  }
+
+  .navbar-links li a {
+	color: rgba(66, 66, 71, 1);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+
+  .navbar-links li a:hover {
+    color: rgba(255, 84, 0, 1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* responsive start from here */
+
+  /* navbar responsive */
+  @media screen and (max-width:600px){
+	.navbar-links{
+		display: block;
+		float: right;
+	}
+  .navbar-left {
+    font-size: 12px;
+  }
+	
+  } 
