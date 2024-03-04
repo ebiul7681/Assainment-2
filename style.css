@@ -74,14 +74,55 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  color: white;
+  color:  white;
   border-radius: 10px;
   margin: 20px auto;
-  /* margin-left: 140px; */
+  margin-left: 60px;
 }
-
 /* popular -Tours style ended*/
 
+/* Styling the destination section */
+.destination {
+  width: 100%;
+  margin: 10px;
+}
+.destination-text {
+  text-align: center;
+}
+.destination-text-2 {
+  color: rgba(66, 66, 71, 1);;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+.image-with-text {
+  position: relative;
+  margin: 10px; 
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: rgba(19, 19, 24, 0.2);
+  color: white;
+}
+
+/* destination style ended */
+
+/* footer section started*/
+.footer{
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo{
+  font-size: 45px;
+}
+/* footer section ended */
 
 
 
@@ -97,28 +138,6 @@
 
   /* responsive start from here */
 
-  /* navbar responsive */
-  @media screen and (max-width:600px){
-	.navbar-links{
-		display: block;
-		float: right;
-	}
-  .navbar-left {
-    font-size: 12px;
-  }
-	
-  } 
 
-/* popular tour section responsive */
-  @media screen and (min-width: 600px) {
-    .popular-text {
-      width: 50%;
-      max-width: none;
-    }
-    .popular-img {
-      width: 50%;
-      max-width: 500px;
-    }
-  }
-   
+  
   
